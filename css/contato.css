@@ -1,0 +1,70 @@
+.contato {
+    width: 100%;
+    min-height: 400px;
+    background-color: var(--color-dark-blue);
+    color: var(--color-light);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5rem 3rem;
+    font-size: 1.3rem;
+}
+
+.nav-footer{
+    margin: 2rem 0;
+}
+
+.nav-footer li {
+    margin: 10px 0;
+}
+
+.fa-brands {
+    margin: 0 10px;
+}
+
+
+.footer-items h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--color-light-blue);
+}
+
+.footer-items h3 {
+    font-weight: 600;
+    margin: 1.5rem 0 1rem;
+}
+
+.footer-items p {
+    margin: 1rem 0;
+}
+
+.footer-items img{
+    width: 12rem;
+}
+
+.fa-brands{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.selo h4{
+    text-align: center;
+}
+
+@media(max-width: 1024px) {
+
+    .footer-items {
+        width: 40%;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .footer-items {
+        width: 90%;
+    }
+}
+
+input:focus, textarea:focus {
+    border-color: var(--color-light-blue);
+}

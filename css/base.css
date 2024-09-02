@@ -1,0 +1,32 @@
+:root {
+    --color-dark-blue: #000637;
+    --color-light-blue: #12C2E8;
+    --color-light: #FFFFFF;
+    --color-dark:#000000;
+    --color-grey: #E8E8E8;
+    --font-body: "Barlow", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+}

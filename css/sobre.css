@@ -1,0 +1,167 @@
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--color-dark-blue);
+    width: 100%;
+}
+
+.proteja {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    margin-bottom: 6rem;
+}
+
+.proteja-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.proteja-texto h1 {
+    color: var(--color-light);
+    width: 50rem;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 0.9;
+}
+
+.proteja-texto p {
+    width: 50rem;
+    font-size: 2.5rem;
+    color: var(--color-light);
+}
+
+.proteja-img img {
+    margin-top: 6rem;
+    width: 50rem;
+    border-radius: 2rem;
+}
+
+
+.informacoes{
+    margin-top: 10rem;
+    display: flex;
+    gap: 7rem;
+    border-top: 1px solid var(--color-grey);
+    padding: 3rem;
+}
+
+
+.informacoes-texto{
+    color: var(--color-grey);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.informacoes-texto img{
+    width: 6rem;
+}
+
+.informacoes-texto h3{
+    font-size: 2.5rem;
+}
+
+.informacoes-texto p{
+    width: 35rem;
+    font-size: 1.8rem;
+}
+
+.plataforma{
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.plataforma h1{
+    color: var(--color-dark);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 6.5rem;
+    text-align: center;
+    width: 85%;
+}
+
+.plataforma h5{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.plataforma a{
+    background-color: var(--color-dark-blue);
+    padding: 1.8rem;
+    width: 40rem;
+    border-radius: 5rem;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .7s;
+}
+
+.plataforma a:hover{
+    color: var(--color-light-blue);
+    transform: scale(1.1);
+}
+
+.video{
+    width: 100%;
+}
+
+.video h1{
+    font-size: 6.6rem;
+    text-align: center;
+    margin: 10rem 0;
+
+}
+
+iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+@media(max-width: 768px) {
+
+    .proteja {
+        width: 85%;
+        flex-wrap: wrap;
+    }
+
+    .proteja h1{
+        font-size: 5rem;
+    }
+
+    .informacoes{
+             width: 85%;
+             flex-wrap: wrap;
+    }
+
+    .video h1{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .proteja {
+        width: 85%;
+        flex-wrap: wrap;
+    }
+
+    .informacoes {
+        width: 85%;
+        flex-wrap: wrap;
+
+    }
+
+
+}
